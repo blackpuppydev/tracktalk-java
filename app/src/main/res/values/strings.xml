@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tracktalk</string>
+    <string name="title_activity_view_report">ViewReportActivity</string>
+    <string name="title_home">Day</string>
+    <string name="title_dashboard">Week</string>
+    <string name="title_notifications">Month</string>
+    <string name="reminder_title" />
+    <string name="editor_activity_title_new_reminder" />
+    <string name="editor_activity_title_edit_reminder" />
+    <string name="title_activity_add_reminder" />
+    <string name="discard">discard</string>
+    <string name="keep_editing" />
+    <string name="editor_delete_reminder_failed" />
+    <string name="editor_delete_reminder_successful" />
+    <string name="delete_dialog_msg">delete_dialog_msg</string>
+    <string name="delete">delete</string>
+    <string name="cancel">cancel</string>
+    <string name="editor_insert_reminder_failed" />
+    <string name="editor_insert_reminder_successful" />
+    <string name="editor_update_reminder_failed" />
+    <string name="editor_update_reminder_successful" />
+    <string name="repeat_off" />
+</resources>

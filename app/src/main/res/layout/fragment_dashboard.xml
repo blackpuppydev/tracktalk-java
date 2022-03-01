@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tracktalkweek3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sukhumvitsetbold"
+                        android:text="Week"
+                        android:textColor="#024C6A"
+                        android:textSize="23dp" />
+
+
+                    <TextView
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanitlightitalic"
+                        android:text="Your activity of English on this week"
+                        android:textColor="#024C6A"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/graphminus"
+                    android:layout_width="52dp"
+                    android:layout_height="29dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/ic_left" />
+
+                <TextView
+                    android:id="@+id/showweek"
+                    android:layout_width="199dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kanitlight"
+                    android:text="Thursday, 21 May 2020"
+                    android:textAlignment="center"
+                    android:textColor="#024C6A"
+                    android:textSize="16dp" />
+
+                <ImageButton
+                    android:id="@+id/graphplus"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="52dp"
+                    android:layout_height="29dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/ic_right" />
+
+
+            </LinearLayout>
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/mp_barchartweek"
+                android:layout_width="match_parent"
+                android:layout_height="334dp"
+                android:fontFamily="@font/sukhumvitsetmedium" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="9dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/changetype"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="145dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/buttonshape6"
+                android:fontFamily="@font/kanitlight"
+                android:text="Percentage"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp" />
+
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/nextpage"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="145dp"
+                android:layout_height="33dp"
+                android:background="@drawable/buttonshape6"
+                android:fontFamily="@font/kanitlight"
+                android:text="view report"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wait5week"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="219dp"
+                android:text=" Please wait 5 second"
+                android:fontFamily="@font/kanitlight"
+                android:textColor="#071231"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+    </LinearLayout>
+
+
+</ScrollView>

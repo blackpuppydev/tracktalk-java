@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seeschedulere"
+    tools:context=".Viewscheduler">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:id="@+id/timeshow"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="125dp"
+            android:fontFamily="@font/sukhumvitsetbold"
+            android:text="TimeShow"
+            android:textAlignment="center"
+            android:textColor="#024C6A"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/graphminus"
+                android:layout_width="38dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="45dp"
+                android:background="#00FFFFFF"
+                android:src="@drawable/ic_left" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/sukhumvitsetmedium"
+                android:text="Wednesday, 21 September 2020"
+                android:textAlignment="center"
+                android:textColor="#024C6A"
+                android:textSize="14dp" />
+
+            <ImageButton
+                android:id="@+id/graphplus"
+                android:layout_width="38dp"
+                android:layout_height="29dp"
+                android:background="#00FFFFFF"
+                android:src="@drawable/ic_right" />
+
+
+        </LinearLayout>
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/mp_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="347dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="9dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/changetype"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="145dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/buttonshape6"
+                android:fontFamily="@font/kanitlight"
+                android:text="Percentage"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/nextpage"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="145dp"
+                android:layout_height="33dp"
+                android:background="@drawable/buttonshape6"
+                android:fontFamily="@font/kanitlight"
+                android:text="view report"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wait5scheduler"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="219dp"
+                android:text=" Please wait 5 second"
+                android:fontFamily="@font/kanitlight"
+                android:textColor="#071231"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

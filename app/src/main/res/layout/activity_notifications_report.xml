@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/result01"
+    tools:context=".ui.notifications.NotificationsReport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="month"
+        android:textSize="20dp"
+        android:fontFamily="@font/sukhumvitsetbold"
+        android:textColor="#024C6A"
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <TextView
+                android:id="@+id/totalwordmonth"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-/-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text=" Total word in all month \n(word/all word)"
+                android:textSize="13dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonreport3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:id="@+id/totaltimemonth"
+                android:text="0 day \n00 : 00 : 00"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Total time \nfor speak english\n (d/hh/mm/ss)"
+                android:textSize="13dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp" />
+
+
+            <TextView
+                android:id="@+id/totalwordminmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Number of words \nper minute\n(word/min)"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonreport4"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
+
+            <TextView
+                android:id="@+id/totalcontinuemonth"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="39dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Word count for speak english continuously\n(word)"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="313dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                />
+
+            <TextView
+                android:id="@+id/wordtopmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="Top 3 words in your speaking \nanother language"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

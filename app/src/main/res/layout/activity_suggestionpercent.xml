@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/suggestper"
+    tools:context=".suggestion.Suggestionpercent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="345dp"
+        android:text="Suggestion"
+        android:fontFamily="@font/kanitregular"
+        android:textStyle="bold"
+        android:textColor="#024C6A"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/kanitlight"
+        android:text="      User can set the proportion of word slips in other language from all sentences that user said.\n      By the basic values is 33.33 percent of the sentence which user can adjust as needed. \n      If you speak another language more than the proportion specified by user, it means the sentence is considered to be in another language.\n      If less than or equal to the value set by user, it means that the sentence is considered to be in English."
+        android:textAlignment="textStart"
+        android:textColor="#024C6A"
+        android:textSize="14dp" />
+
+
+</LinearLayout>

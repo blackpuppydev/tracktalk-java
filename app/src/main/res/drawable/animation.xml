@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:drawable="@drawable/talkinghead04"
+        android:duration="400"/>
+
+    <item
+        android:drawable="@drawable/talkinghead03"
+        android:duration="400"/>
+
+    <item
+        android:drawable="@drawable/talkinghead02"
+        android:duration="400"/>
+
+    <item
+        android:drawable="@drawable/talkinghead01"
+        android:duration="400"/>
+
+</animation-list>

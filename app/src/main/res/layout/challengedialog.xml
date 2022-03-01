@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F1FFFF"
+     >
+
+    <LinearLayout
+        android:layout_width="255dp"
+        android:layout_height="400dp"
+        android:background="@drawable/yougotchallenge"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/showgotchallenge"
+            android:layout_width="196dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/kanitregular"
+            android:text="0/0"
+            android:textAlignment="center"
+            android:textColor="#024C6A"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/kanitlight"
+            android:text="word count of english / challenge of english"
+            android:textAlignment="center"
+            android:textColor="#024C6A"
+            android:textSize="9dp" />
+
+        <TextView
+            android:layout_width="215dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/kanitlight"
+            android:text="You can do this! \n You are successful in speaking English."
+            android:textAlignment="center"
+            android:textColor="#024C6A"
+            android:textSize="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btngotchallenge"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="58dp"
+
+                android:background="@drawable/buttonshape6"
+                android:fontFamily="@font/kanitlight"
+                android:text="ok"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

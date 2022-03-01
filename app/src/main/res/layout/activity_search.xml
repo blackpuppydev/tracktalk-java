@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seeresulttime"
+    tools:context=".SearchActivity">
+
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="393dp"
+        android:fontFamily="@font/kanitregular"
+        android:text="See result of time"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="301dp"
+        android:src="@drawable/ic_seeicon1" />
+
+    <Button
+        android:id="@+id/setdate"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="323dp"
+        android:background="@drawable/buttonshape10"
+        android:fontFamily="@font/kanitlightitalic"
+        android:text="set date"
+        android:textColor="#024C6A"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="231dp"
+        android:src="@drawable/ic_seeicon2" />
+
+    <Button
+        android:id="@+id/settimeStart"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/buttonshape10"
+        android:fontFamily="@font/kanitlightitalic"
+        android:text="Start time"
+        android:textColor="#024C6A"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="147dp"
+        android:src="@drawable/ic_seeicon3" />
+
+    <Button
+        android:id="@+id/settimeStop"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="162dp"
+        android:background="@drawable/buttonshape10"
+        android:fontFamily="@font/kanitlightitalic"
+        android:text="Stop time"
+        android:textColor="#024C6A"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btnok"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonshape6"
+        android:fontFamily="@font/kanitlight"
+        android:text="ok"
+        android:textColor="@color/mdtp_white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/setagain"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="89dp"
+        android:fontFamily="@font/kanitlightitalic"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textColor="#E60000" />
+
+
+</RelativeLayout>

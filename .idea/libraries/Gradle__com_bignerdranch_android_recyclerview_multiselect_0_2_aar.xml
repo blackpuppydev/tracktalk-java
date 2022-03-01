@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bignerdranch.android:recyclerview-multiselect:0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2ff04d9113647e6414b1ff4afdcd91b/jetified-recyclerview-multiselect-0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2ff04d9113647e6414b1ff4afdcd91b/jetified-recyclerview-multiselect-0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2ff04d9113647e6414b1ff4afdcd91b/jetified-recyclerview-multiselect-0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bddf83fab1eb587cedd2e1ba007c0d65/jetified-recyclerview-multiselect-0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bddf83fab1eb587cedd2e1ba007c0d65/jetified-recyclerview-multiselect-0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bddf83fab1eb587cedd2e1ba007c0d65/jetified-recyclerview-multiselect-0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0b2084059ebac7f47893c946d1e460f/jetified-recyclerview-multiselect-0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0b2084059ebac7f47893c946d1e460f/jetified-recyclerview-multiselect-0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0b2084059ebac7f47893c946d1e460f/jetified-recyclerview-multiselect-0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc6be95eb54f1428e463df1ae7ea3e53/jetified-recyclerview-multiselect-0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc6be95eb54f1428e463df1ae7ea3e53/jetified-recyclerview-multiselect-0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc6be95eb54f1428e463df1ae7ea3e53/jetified-recyclerview-multiselect-0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

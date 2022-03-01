@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EE127BA5</color>
+    <color name="colorPrimaryDark">#024C6A</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--Switch-->
+    <color name="disable_forground_grey">#42221f1f</color>
+    <color name="disable_thumb_grey">#1c000000</color>
+    <color name="enable_thumb_blue">#024C6A</color>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/layout/activity_addscheduler.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_dashboard_report.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_home_report.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_listscheduler.xml" value="0.22327898550724637" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_notifications_report.xml" value="0.27072072072072073" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_settinglang.xml" value="0.27072072072072073" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_suggestionchallenge.xml" value="0.27072072072072073" />
+        <entry key="app/src/main/res/layout/activity_suggestionpercent.xml" value="0.27072072072072073" />
+        <entry key="app/src/main/res/layout/activity_view_report.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_viewscheduler.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_viewschedulerreport.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_viewsearch.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/activity_viewsearchreport.xml" value="0.27072072072072073" />
+        <entry key="app/src/main/res/layout/addschedulerdialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/alarm_items.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/challengedialog.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.28378378378378377" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25679347826086957" />
+        <entry key="app/src/main/res/layout/listview_scheduler.xml" value="0.22327898550724637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

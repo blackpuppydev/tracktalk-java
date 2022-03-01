@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SettinglangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanitlight"
+            android:text="Setting"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:textAlignment="center"
+            android:textColor="#024C6A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="14dp"
+            android:text="Please set your native language"
+            android:textAlignment="center"
+            android:fontFamily="@font/kanitlight"
+            android:textColor="#024C6A" />
+
+
+        <com.webianks.library.scroll_choice.ScrollChoice
+            android:id="@+id/scroll_choice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sukhumvitsetmedium"
+            app:scroll_atmospheric="true"
+            app:scroll_background_color="#DFF8F7"
+            app:scroll_indicator="true"
+            app:scroll_indicator_color="#FFF"
+            app:scroll_item_align="center"
+            app:scroll_item_text_color="#024C6A"
+            app:scroll_selected_item_background="#FFF"
+            app:scroll_selected_item_text_color="#005149"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textSize="13dp"
+            android:fontFamily="@font/kanitlight"
+            android:text="Don't set native language"
+            android:textColor="#024C6A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/kanitlight"
+                android:text="percentage of word in other language\n(0 - 100)"
+                android:textAlignment="center"
+                android:textColor="#024C6A"
+                android:textSize="13dp" />
+
+
+            <ImageButton
+                android:id="@+id/suggestpercent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_info_black_24dp" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editpercent"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:fontFamily="@font/sukhumvitsetmedium"
+            android:inputType="numberDecimal"
+            android:textColor="#005149" />
+
+        <TextView
+            android:id="@+id/errorpercent"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:fontFamily="@font/kanitlightitalic"
+            android:textAlignment="center"
+            android:textColor="#FF011E"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="243dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/kanitlight"
+                android:text="set the number of daily challenge \n(word count per day)"
+                android:textAlignment="center"
+                android:textColor="#024C6A"
+                android:textSize="13dp" />
+
+            <ImageButton
+                android:id="@+id/suggestchallenge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_info_black_24dp" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:textColor="#005149"
+            android:id="@+id/editchaday"
+            android:inputType="number"
+            android:fontFamily="@font/sukhumvitsetmedium"
+            />
+
+        <TextView
+            android:id="@+id/errorchallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanitlightitalic"
+            android:textAlignment="center"
+            android:textColor="#FF011E"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <Button
+            android:id="@+id/button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="151dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape6"
+            android:fontFamily="@font/kanitlight"
+            android:text="ok"
+            android:textColor="@color/mdtp_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

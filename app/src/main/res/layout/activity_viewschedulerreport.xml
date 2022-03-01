@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/result01"
+    tools:context=".Viewschedulerreport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/datescheduler"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Date Scheduler"
+        android:fontFamily="@font/sukhumvitsetbold"
+        android:textColor="#024C6A"
+        android:textSize="15dp"
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+
+            <TextView
+                android:id="@+id/totalwordscheduler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="-/-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Total word \n(word/all word)"
+                android:textSize="13dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonreport3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+
+            <TextView
+                android:id="@+id/totaltimescheduler"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Total time \nfor speak english\n (h/mm/ss)"
+                android:textSize="13dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+
+
+            <TextView
+                android:id="@+id/totalwordminscheduler"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Number of words \nper minute\n(word/min)"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonreport4"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
+
+            <TextView
+                android:id="@+id/totalcontinuescheduler"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="39dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanitlight"
+                android:text="Word count for speak english continuously\n(word)"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="313dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonreport5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/wordtopscheduler"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:fontFamily="@font/kanitlight"
+                android:text="Top 3 words in your speaking \nanother language"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

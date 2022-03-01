@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AddschedulerActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="510dp"
+        android:fontFamily="@font/kanitlight"
+        android:textStyle="bold"
+        android:text="Add scheduler"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="420dp"
+        android:fontFamily="@font/kanitlight"
+        android:text="Start time"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/addtimestart"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="369dp"
+        android:background="@drawable/buttonshape10"
+        android:fontFamily="@font/kanitlight"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="325dp"
+        android:fontFamily="@font/kanitlight"
+        android:text="Stop time"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/addtimestop"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="274dp"
+        android:background="@drawable/buttonshape10"
+        android:fontFamily="@font/kanitlight"
+        android:textAlignment="center"
+        android:textColor="#024C6A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:textAlignment="center"
+        android:textColor="#EC0000"
+        android:layout_marginBottom="211dp" />
+
+    <Button
+        android:id="@+id/btnok"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/buttonshape6"
+        android:fontFamily="@font/kanitlight"
+        android:text="OK"
+        android:textAlignment="center"
+        android:textColor="#ededed"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
